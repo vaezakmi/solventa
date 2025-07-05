@@ -83,3 +83,10 @@ const animateObserver = new IntersectionObserver((entries) => {
 }, { threshold: 0.2 });
 
 document.querySelectorAll('[data-animate]').forEach(el => animateObserver.observe(el));
+const burger = document.getElementById('burger');
+const nav = document.querySelector('.nav'); // Replace with your nav class
+
+burger.addEventListener('click', () => {
+  nav.classList.toggle('nav-active');
+  burger.classList.toggle('open'); // Optional if animating burger lines
+});

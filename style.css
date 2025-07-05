@@ -56,13 +56,27 @@ body {
   color: maroon;
   border-color: maroon;
 }
+.nav {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 60px; /* adjust depending on header */
+  right: 0;
+  background: white;
+  width: 100%;
+  padding: 1rem;
+  z-index: 1100;
+}
 
+.nav.nav-active {
+  display: flex;
+}
 /* Burger Menu */
 .burger {
   display: none;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   cursor: pointer;
   width: 36px;
   height: 36px;
