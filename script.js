@@ -57,14 +57,15 @@ document.addEventListener('DOMContentLoaded', () => {
   animateCount('schools-count', 1800);
 });
 // Reveal solution cards on scroll
-const solutionCardObserver = new IntersectionObserver((entries) => {
+const solutionCardObserver = new IntersectionObserver((entries, observer) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
       entry.target.classList.add('visible');
+      observer.unobserve(entry.target); // Only animate once
     }
   });
 }, {
-  threshold: 0.1
+  threshold: 0.15 // Slightly higher threshold for smoother reveal
 });
 
 document.querySelectorAll('.solution-card').forEach(card => solutionCardObserver.observe(card));
