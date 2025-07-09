@@ -1,5 +1,6 @@
 // --- Navigation Actions ---
 function exploreSolutions() {
+  // Use href if you want the back button to work
   window.location.href = "solutions.html";
 }
 
@@ -43,6 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
         document.body.classList.remove("fade-in");
         document.body.classList.add("fade-out");
         setTimeout(() => {
+          // Use href instead of replace to preserve browser history
           window.location.href = url;
         }, 300);
       });
@@ -63,6 +65,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   animateCount('years-count', 10);
   animateCount('schools-count', 1800);
+  animateCount('teachers-count', 2000); // Optional: add this if used
 
   // Reveal solution cards on scroll
   const solutionCardObserver = new IntersectionObserver((entries, observer) => {
