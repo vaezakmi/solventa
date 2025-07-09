@@ -13,6 +13,15 @@
   <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
+<script>
+  // Fix back navigation blank page issue
+  window.addEventListener('pageshow', function(event) {
+    // If it's a persisted page (from cache), reload it to re-render correctly
+    if (event.persisted || window.performance.getEntriesByType("navigation")[0].type === "back_forward") {
+      window.location.reload();
+    }
+  });
+</script>
 <body>
 
   <!-- Back to Top & WhatsApp -->
