@@ -50,6 +50,13 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     }
   });
+  // Fix back navigation blank page issue
+  window.addEventListener('pageshow', function(event) {
+    // If it's a persisted page (from cache), reload it to re-render correctly
+    if (event.persisted || window.performance.getEntriesByType("navigation")[0].type === "back_forward") {
+      window.location.reload();
+    }
+  });
 window.addEventListener('pageshow', function(event) {
   if (event.persisted || window.performance.getEntriesByType("navigation")[0].type === "back_forward") {
     window.location.reload();
