@@ -50,7 +50,11 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     }
   });
-
+window.addEventListener('pageshow', function(event) {
+  if (event.persisted || window.performance.getEntriesByType("navigation")[0].type === "back_forward") {
+    window.location.reload();
+  }
+});
   // Animated counters
   function animateCount(id, endValue) {
     let start = 0;
