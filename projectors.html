@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DLP & Android Projectors | Solventa</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    :root {
+      --blue: #008CDB;
+      --green: #7BC043;
+      --white: #ffffff;
+      --light-bg: #f4f8fb;
+      --text-color: #222;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #f9fbfd, #dceffd);
+      color: var(--text-color);
+      padding: 40px 16px;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: var(--blue);
+      font-size: 3rem;
+      margin-bottom: 60px;
+      font-weight: 700;
+    }
+
+    .card {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      background: var(--white);
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+      margin-bottom: 60px;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+    }
+
+    .card img {
+      flex: 0 1 35%;
+  min-width: 250px;
+  max-width: 400px;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+
+    .card-content {
+      padding: 40px 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .card-content h2 {
+      color: var(--blue);
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    .card-content p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      color: #333;
+      margin-bottom: 25px;
+    }
+
+    .card-content ul {
+      margin-left: 20px;
+      margin-bottom: 25px;
+    }
+
+    .card-content ul li {
+      margin-bottom: 8px;
+      font-size: 1rem;
+    }
+
+    .cta-btn {
+      align-self: start;
+      padding: 14px 28px;
+      background-color: var(--green);
+      color: white;
+      font-weight: bold;
+      font-size: 1rem;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.3s ease, transform 0.2s ease;
+    }
+
+    .cta-btn:hover {
+      background-color: #5da533;
+      transform: scale(1.05);
+    }
+
+    @media (max-width: 900px) {
+      .card {
+        grid-template-columns: 1fr;
+      }
+      .card img {
+        height: 300px;
+      }
+      .card-content {
+        padding: 30px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>DLP & Android Projectors</h1>
+
+    <!-- DLP Projectors Section -->
+    <div class="card" id="dlp-projectors">
+      <img src="images/dlp-projector.jpg" alt="DLP Projector">
+      <div class="card-content">
+        <h2>DLP Projectors</h2>
+        <p>
+          Solventa's DLP projectors deliver vibrant visuals, sharp contrast, and smooth video performance, making them ideal for classrooms, auditoriums, and corporate presentations. Built for reliability and clarity, they provide long lamp life and outstanding projection quality even in well-lit rooms.
+        </p>
+        <ul>
+          <li>High brightness for clear daylight viewing</li>
+          <li>Long lamp life and minimal maintenance</li>
+          <li>Sharp color reproduction and contrast</li>
+          <li>HDMI, VGA, and USB inputs supported</li>
+        </ul>
+        <a href="contact.html#demo" class="cta-btn">Get Quote</a>
+      </div>
+    </div>
+
+    <!-- Android Projectors Section -->
+    <div class="card" id="android-projectors">
+      <img src="images/android-projector.jpg" alt="Android Projector">
+      <div class="card-content">
+        <h2>Android Projectors</h2>
+        <p>
+          Android Projectors from Solventa come with built-in smart functionality, allowing users to stream content, install apps, and access cloud storage — all without an external device. With wireless connectivity and built-in speakers, they're perfect for mobile presentations, training, and home cinema.
+        </p>
+        <ul>
+          <li>Built-in Android OS with access to apps</li>
+          <li>Wi-Fi, Bluetooth & wireless screen sharing</li>
+          <li>Portable, compact, and cable-free</li>
+          <li>Ideal for both education and entertainment</li>
+        </ul>
+        <a href="contact.html#demo" class="cta-btn">Get Quote</a>
+      </div>
+    </div>
+  </div>
+</body>
+<footer class="site-footer">
+  <div class="footer-slogan">
+  <p>Bridging classrooms with the future of education.</p>
+</div>
+    <div class="footer-container">
+      <div class="footer-column">
+        <h4>Solventa Enterprises</h4>
+        <p>Empowering classrooms through innovative EdTech across Kenya.</p>
+      </div>
+      <div class="footer-column">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="solutions.html">Solutions</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="resources.html">Resources</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Contact Us</h4>
+        <ul class="footer-contact-list">
+          <li>
+        <img src="images/location-icon.png" alt="Location" style="vertical-align:middle;width:18px;height:18px;margin-right:6px;">
+        Cedar Court, Garden Estate Off Thika road, Block C, Office C1
+          </li>
+          <li>
+        <a href="tel:+254729711200" class="footer-phone">
+          <img src="images/phone-icon.png" alt="Phone" style="vertical-align:middle;width:18px;height:18px;margin-right:6px;">
+          +254 729 711 200
+        </a>
+          </li>
+          <li>
+        <a href="mailto:info@solventa.co.ke" class="footer-email">
+          <img src="images/email-icon.png" alt="Email" style="vertical-align:middle;width:18px;height:18px;margin-right:6px;">
+          info@solventa.co.ke
+        </a>
+          </li>
+        </ul>
+        <div class="social-icons">
+          <a href="https://m.facebook.com/solventa.enterprises/" target="_blank" rel="noopener">
+            <img src="images/facebook-icon.png" alt="Facebook page for Solventa Enterprises">
+          </a>
+          <a href="#"><img src="images/twitter-icon.png" alt="Twitter"></a>
+          <a href="https://www.linkedin.com/company/solventa-enterprises/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <img src="images/linkedin-icon.png" alt="LinkedIn">
+        </div>
+      </div>
+        </div>
+        <div class="footer-bottom">
+      <p>&copy; 2025 Solventa Enterprises Ltd. All rights reserved.</p>
+        </div>
+      </footer>
+</html>

@@ -8,12 +8,13 @@
   <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Montserrat:wght@600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
-  
 </head>
 <body>
-  <button id="backToTop" title="Back to Top"><i class="fas fa-arrow-up"></i></button>
-  <a href="https://wa.me/254729711200" class="whatsapp-button" target="_blank" title="Chat with us on WhatsApp">
-    <i class="fab fa-whatsapp" style="font-size:2rem;color:#fff;"></i>
+  <button id="backToTop" title="Back to Top">↑</button>
+  <!-- WhatsApp Floating Button -->
+ <a href="https://wa.me/254729711200" class="whatsapp-button" target="_blank" title="Chat with us on WhatsApp">
+  <img src="images/whatsapp-icon.png" alt="WhatsApp Chat">
+</a>
   </a>
   <header class="site-header">
     <div class="container" style="display:flex;align-items:center;justify-content:space-between;">
@@ -33,49 +34,53 @@
       </nav>
     </div>
   </header>
+
   <main class="resources-page">
     <div class="container">
       <h2 class="section-title">Resources & Blog</h2>
+
       <section class="download-section">
         <h3><i class="fas fa-download"></i> Guides & Downloads</h3>
         <ul>
           <li>
-        <a href="downloads/smartboards-guide.pdf" download>
-          <i class="fas fa-file-pdf" style="color:#e74c3c"></i> Using Smartboards Effectively in Classrooms (PDF)
-        </a>
+            <a href="downloads/smartboards-guide.pdf" download>
+              <i class="fas fa-file-pdf" style="color:#e74c3c"></i> Using Smartboards Effectively in Classrooms (PDF)
+            </a>
           </li>
           <li>
-        <a href="downloads/ict-training-modules.pdf" download>
-          <i class="fas fa-file-pdf" style="color:#e74c3c"></i> ICT Training Modules Overview (PDF)
-        </a>
+            <a href="downloads/ict-training-modules.pdf" download>
+              <i class="fas fa-file-pdf" style="color:#e74c3c"></i> ICT Training Modules Overview (PDF)
+            </a>
           </li>
           <li>
-        <a href="downloads/edtech-buyers-guide-2025.pdf" download>
-          <i class="fas fa-file-pdf" style="color:#e74c3c"></i> 2025 EdTech Buyer’s Guide (PDF)
-        </a>
+            <a href="downloads/edtech-buyers-guide-2025.pdf" download>
+              <i class="fas fa-file-pdf" style="color:#e74c3c"></i> 2025 EdTech Buyer’s Guide (PDF)
+            </a>
           </li>
         </ul>
       </section>
+
       <section class="blog-section">
         <h3><i class="fas fa-blog"></i> Latest Blog Posts</h3>
         <ul>
           <li>
-        <a href="downloads/edtech-transforming-kenya.pdf" download>
-          <i class="fas fa-lightbulb" style="color:#f1c40f"></i> 5 Ways EdTech is Transforming Learning in Kenya
-        </a>
+            <a href="downloads/edtech-transforming-kenya.pdf" download>
+              <i class="fas fa-lightbulb" style="color:#f1c40f"></i> 5 Ways EdTech is Transforming Learning in Kenya
+            </a>
           </li>
           <li>
-        <a href="downloads/chromebook-vs-laptop.pdf" download>
-          <i class="fas fa-laptop" style="color:#0077ff"></i> Choosing Between a Chromebook and a Laptop for Students
-        </a>
+            <a href="downloads/chromebook-vs-laptop.pdf" download>
+              <i class="fas fa-laptop" style="color:#0077ff"></i> Choosing Between a Chromebook and a Laptop for Students
+            </a>
           </li>
           <li>
-        <a href="downloads/teacher-digital-success.pdf" download>
-          <i class="fas fa-chalkboard-teacher" style="color:#25d366"></i> How to Train Teachers for Long-Term Digital Success
-        </a>
+            <a href="downloads/teacher-digital-success.pdf" download>
+              <i class="fas fa-chalkboard-teacher" style="color:#25d366"></i> How to Train Teachers for Long-Term Digital Success
+            </a>
           </li>
         </ul>
       </section>
+
       <section class="careers-section">
         <h3><i class="fas fa-briefcase"></i> Careers</h3>
         <p>We're always looking for passionate educators, trainers, and developers to join our team!</p>
@@ -86,12 +91,16 @@
         </ul>
         <p>Email your CV to: <a href="mailto:careers@solventa.co.ke">careers@solventa.co.ke</a></p>
       </section>
+        </a>
+      </div>
     </div>
   </main>
-  <!-- Watermark Logo (bottom left, fixed, subtle opacity) -->
-      <div class="watermark-logo" style="position: fixed; bottom: 24px; left: 24px; z-index: 500; opacity: 0.39; pointer-events: none;">
-        <img src="images/new-logo.PNG" alt="Solventa Enterprises watermark logo" style="height:120px; user-select: none;">
-      </div>
+
+  <!-- Watermark Logo -->
+  <div class="watermark-logo" style="position: fixed; bottom: 24px; left: 24px; z-index: 500; opacity: 0.39; pointer-events: none;">
+    <img src="images/new-logo.PNG" alt="Solventa Enterprises watermark logo" style="height:120px; user-select: none;">
+  </div>
+
   <footer class="site-footer">
     <div class="footer-slogan">
       <p>Bridging classrooms with the future of education.</p>
@@ -115,37 +124,52 @@
         <h4>Contact Us</h4>
         <ul class="footer-contact-list">
           <li>
-        <img src="images/location-icon.png" alt="Location" style="vertical-align:middle;width:18px;height:18px;margin-right:6px;">
-        Cedar Court, Garden Estate Off Thika road, Block C, Office C1
+            <img src="images/location-icon.png" alt="Location" style="vertical-align:middle;width:18px;height:18px;margin-right:6px;">
+            Cedar Court, Garden Estate Off Thika road, Block C, Office C1
           </li>
           <li>
-        <a href="tel:+254729711200" class="footer-phone">
-          <img src="images/phone-icon.png" alt="Phone" style="vertical-align:middle;width:18px;height:18px;margin-right:6px;">
-          +254 729 711 200
-        </a>
+            <a href="tel:+254729711200" class="footer-phone">
+              <img src="images/phone-icon.png" alt="Phone" style="vertical-align:middle;width:18px;height:18px;margin-right:6px;">
+              +254 729 711 200
+            </a>
           </li>
           <li>
-        <a href="mailto:info@solventa.co.ke" class="footer-email">
-          <img src="images/email-icon.png" alt="Email" style="vertical-align:middle;width:18px;height:18px;margin-right:6px;">
-          info@solventa.co.ke
-        </a>
+            <a href="mailto:info@solventa.co.ke" class="footer-email">
+              <img src="images/email-icon.png" alt="Email" style="vertical-align:middle;width:18px;height:18px;margin-right:6px;">
+              info@solventa.co.ke
+            </a>
           </li>
         </ul>
         <div class="social-icons">
           <a href="https://m.facebook.com/solventa.enterprises/" target="_blank" rel="noopener">
-            <img src="images/facebook-icon.png" alt="Facebook page for Solventa Enterprises">
+            <img src="images/facebook-icon.png" alt="Facebook">
           </a>
           <a href="#"><img src="images/twitter-icon.png" alt="Twitter"></a>
           <a href="https://www.linkedin.com/company/solventa-enterprises/" target="_blank" rel="noopener" aria-label="LinkedIn">
             <img src="images/linkedin-icon.png" alt="LinkedIn">
+          </a>
         </div>
       </div>
-        </div>
-        <div class="footer-bottom">
+    </div>
+    <div class="footer-bottom">
       <p>&copy; 2025 Solventa Enterprises Ltd. All rights reserved.</p>
-      </div>
-      </footer>
-  <!-- JS -->
-  <script src="script.js"></script>
+    </div>
+  </footer>
+
+  <script>
+    const backToTopButton = document.getElementById('backToTop');
+
+    window.addEventListener('scroll', () => {
+      if (window.pageYOffset > 300) {
+        backToTopButton.style.display = 'block';
+      } else {
+        backToTopButton.style.display = 'none';
+      }
+    });
+
+    backToTopButton.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  </script>
 </body>
 </html>

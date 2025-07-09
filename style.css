@@ -53,8 +53,8 @@ body {
 }
 .nav-links li a.active,
 .nav-links li a:hover {
-  color: maroon;
-  border-color: maroon;
+  color:#008CDB;
+  border-color: #008CDB;
 }
 .nav {
   display: none;
@@ -89,7 +89,7 @@ body {
   display: block;
   height: 3px;
   width: 28px;
-  background: maroon;
+  background: #008CDB;
   margin: 5px 0;
   border-radius: 2px;
   transition: all 0.3s cubic-bezier(.23,1.02,.52,.98);
@@ -287,12 +287,12 @@ body {
   display: inline-block;
 }
 .btn-primary {
-  background: maroon;
+  background: #7BC043;
   color: white;
   border: none;
 }
 .btn-primary:hover {
-  background: #a10000;
+  background: #008CDB;
 }
 .btn-outline {
   background: transparent;
@@ -301,7 +301,7 @@ body {
 }
 .btn-outline:hover {
   background: white;
-  color: maroon;
+  color: #008CDB;
 }
 .btn-secondary {
   background: #00BFFF;
@@ -338,7 +338,7 @@ body {
 }
 .footer-column a:hover {
   text-decoration: underline;
-  color: maroon;
+  color: #008CDB;
 }
 .footer-slogan {
   text-align: center;
@@ -374,7 +374,7 @@ body {
   position: fixed;
   bottom: 80px;
   right: 20px;
-  background: maroon;
+  background: #008CDB;
   color: white;
   border: none;
   padding: 10px 14px;
@@ -431,7 +431,7 @@ body {
 h2 {
   text-align: center;
   margin-bottom: 1.5em;
-  color: maroon;
+      color: #008CDB;;
 }
 
 /* Solutions Grid */
@@ -460,7 +460,7 @@ h2 {
 
 .solution-card h4 {
   margin: 1em;
-  color: maroon;
+  color: #008CDB;
 }
 /* CTA Button Row */
 .cta-center {
@@ -556,20 +556,49 @@ h2 {
 }
 /* About Page Styles */
 .about-banner {
-  background: url('images/about-banner.jpg') center/cover no-repeat;
-  height: 60vh;
+  padding: 4rem 1rem;
+  background-color: #f9f9f9;
+}
+
+.about-banner .two-column {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
-  color: white;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.about-banner-image {
+  flex: 0 1 35%;
+  min-width: 250px;
+  max-width: 400px;
   text-align: center;
+  margin: auto;
 }
 
-.banner-text h1 {
-  font-size: 2.8em;
-  margin-bottom: 0.5em;
+.about-banner-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
+.about-banner-text {
+  flex: 1 1 45%;
+}
+
+.about-banner-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #008CDB;
+}
+
+.about-banner-text p {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 500;
+  color: #555;
+}
 .about-section,
 .about-values,
 .about-expandable,
@@ -613,19 +642,19 @@ h2 {
   display: none;
   padding: 1em;
   background: #f9f9f9;
-  border-left: 4px solid maroon;
+  border-left: 4px solid #008CDB;
 }
 
 .about-cta {
-  background: maroon;
+  background: #7BC043;
   color: white;
   text-align: center;
   padding: 3em 1em;
 }
 
 .about-cta button {
-  background: white;
-  color: maroon;
+  background: bla;
+  color: #008CDB;
   padding: 1em 2em;
   border: none;
   font-size: 1.1em;
@@ -677,7 +706,7 @@ h2 {
 
 .solutions-page h2 {
   font-size: 2.4em;
-  color: maroon;
+  color: #7BC043;
   margin-bottom: 2em;
   font-weight: 700;
 }
@@ -694,7 +723,7 @@ h2 {
 .solution-card {
   background: rgba(255, 255, 255, 0.95);
   border: 1px solid #e3e3e3;
-  border-left: 5px solid maroon;
+  border-left: 5px solid #008CDB;
   border-radius: 12px;
   border-radius: 15px;
   padding: 2em 1.5em;
@@ -723,7 +752,7 @@ h2 {
 
 /* Title & Description */
 .solution-card h3 {
-  color: maroon;
+  color: #7BC043;
   font-size: 1.25em;
   margin: 0.8em 0 0.5em;
 }
@@ -737,7 +766,7 @@ h2 {
 
 /* Call-to-Action Button */
 .solution-card button {
-  background-color: #00BFFF;
+  background-color: #7BC043;
   color: white;
   border: none;
   padding: 0.7em 1.5em;
@@ -750,7 +779,7 @@ h2 {
 }
 
 .solution-card button:hover {
-  background-color: #009acd;
+  background-color: #7BC043;
   transform: scale(1.05);
 }
 .solution-card {
@@ -795,7 +824,7 @@ h2 {
   left: 0;
   height: 100%;
   width: 6px;
-  background-color: maroon;
+  background-color: #008CDB;
 }
 
 .feature-block.alt .accent-bar {
@@ -829,7 +858,7 @@ h2 {
 
 .feature-content h3 {
   margin: 0 0 0.5em;
-  color: maroon;
+  color: #7BC043;
   font-size: 1.3em;
 }
 
@@ -860,7 +889,7 @@ h2 {
   position: fixed;
   bottom: 80px;
   right: 20px;
-  background: maroon;
+  background: #008CDB;
   color: white;
   border: none;
   padding: 10px 14px;
@@ -888,7 +917,7 @@ h2 {
 .testimonial-card {
   background-color: #e0f0ff;
   padding: 1.2em;
-  border-left: 4px solid maroon;
+  border-left: 4px solid #008CDB;
   border-radius: 6px;
   font-style: italic;
 }
@@ -897,13 +926,13 @@ h2 {
   margin-top: 1em;
   font-style: normal;
   font-weight: bold;
-  color: maroon;
+  color: #7BC043;
 }
 
 /* Partners */
 .partners-heading {
   margin-top: 3em;
-  color: maroon;
+  color:#008CDB;
   font-size: 1.5em;
 }
 
@@ -948,7 +977,7 @@ h2 {
 }
 
 .contact-form button {
-  background: maroon;
+  background: #008CDB;
   color: white;
   padding: 0.9em;
   border: none;
@@ -958,7 +987,7 @@ h2 {
 }
 
 .contact-form button:hover {
-  background: #a00000;
+  background: #7BC043;
 }
 
 .contact-details {
@@ -1032,7 +1061,7 @@ h2 {
       transition: color 0.2s;
     }
     nav a.active, nav a:hover {
-      color: maroon;
+      color: #7BC043;
     }
     .section-title {
       font-family: 'ubuntu';
@@ -1054,7 +1083,7 @@ h2 {
     }
     section h3 {
       font-size: 1.3rem;
-      color: navy;
+      color: #008CDB;
       margin-bottom: 1rem;
       font-family: 'ubuntu';
     }
@@ -1072,7 +1101,7 @@ h2 {
       transition: color 0.2s;
     }
     section ul li a:hover {
-      color: #0077ff;
+      color: #008CDB;
       text-decoration: underline;
     }
     .careers-section ul li {
@@ -1299,7 +1328,8 @@ button {
 
 .footer-column a:hover {
   text-decoration: underline;
-  color: maroon;
+      color: #008CDB;
+  color: #00BFFF;
 }
 
 .footer-slogan {
@@ -1390,7 +1420,7 @@ button {
 
 .who-text h2 {
   font-size: 2em;
-  color: maroon;
+  color: #008CDB;
   margin-bottom: 0.6em;
 }
 
@@ -1408,7 +1438,7 @@ button {
 
 .badge {
   background: #fff;
-  border-left: 5px solid maroon;
+  border-left: 5px solid #008CDB;
   padding: 1em 1.2em;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
@@ -1461,7 +1491,7 @@ button {
       position: fixed;
       bottom: 100px;
       right: 36px;
-      background: #0077ff;
+      background: rgb(0, 140, 219)f;
       color: #fff;
       border: none;
       border-radius: 50%;
@@ -1519,7 +1549,7 @@ body.fade-in {
 
 .solution-card.stagger {
   background: white;
-  border-left: 5px solid maroon;
+  border-left: 5px solid rgb(0, 140, 219);
   border-radius: 12px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.08);
   border-radius: 12px;
@@ -1542,7 +1572,7 @@ body.fade-in {
   margin-bottom: 1em;
 }
 .solution-card h3 {
-  color: maroon;
+  color: rgb(0, 140, 219);
   margin-bottom: 0.5em;
 }
 .solution-card p {
@@ -1563,7 +1593,7 @@ body.fade-in {
 /* Enhanced Highlight Block */
 .highlight-block {
   background: linear-gradient(135deg, #ffffff, #f8f8f8);
-  border-left: 5px solid maroon;
+  border-left: 5px solid rgb(0, 140, 219);
   border-radius: 12px;
   padding: 2em 1.5em;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.07);
@@ -1592,7 +1622,7 @@ body.fade-in {
 
 /* Title Styling */
 .highlight-block h4 {
-  color: maroon;
+  color: rgb(0, 140, 219);
   font-size: 1.4em;
   margin-bottom: 0.3em;
   font-weight: 700;
@@ -1629,4 +1659,17 @@ body.fade-in {
 .highlight-block[data-animate].animated {
   opacity: 1;
   transform: translateY(0);
+}
+.smart-solution-card {
+  background: white;
+  border-left: 5px solid #008CDB;
+  border-radius: 12px;
+  padding: 1.5em;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
+}
+smart-solution-card {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.6s ease-out;
 }
