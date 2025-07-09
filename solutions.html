@@ -8,16 +8,19 @@
   <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
-<button id="backToTop" title="Back to Top">↑</button>
-<!-- WhatsApp Floating Button -->
-<a href="https://wa.me/254729711200" class="whatsapp-button" target="_blank" title="Chat with us on WhatsApp">
-  <img src="images/whatsapp-icon.png" alt="WhatsApp Chat">
-</a>
+
 <body>
 
+  <!-- Floating Buttons -->
+  <button id="backToTop" title="Back to Top">↑</button>
+  <a href="https://wa.me/254729711200" class="whatsapp-button" target="_blank" title="Chat with us on WhatsApp">
+    <img src="images/whatsapp-icon.png" alt="WhatsApp Chat">
+  </a>
+
+  <!-- Header -->
   <header class="site-header">
     <div class="container">
-     <a href="index.html" class="logo">
+      <a href="index.html" class="logo">
         <img src="images/logo.png" alt="Solventa Logo">
       </a>
       <nav>
@@ -32,47 +35,55 @@
     </div>
   </header>
 
+  <!-- Main -->
   <main class="solutions-page">
-  <div class="container">
-    <h2>Our Solutions</h2>
-    <div class="solutions-grid">
-      <div class="solution-card">
-        <img src="images/smartboards.jpg" alt="Smartboards">
-        <h3>Smartboards & Interactive Kits</h3>
-        <p>Turn any projected surface into a dynamic interactive touch screen with our innovative Smarttouch kits designed to spark collaboration, boost engagement and transform every classroom into an immersive learning experience.</p>
-        <a href="smart-solutions.html"><button>Learn More</button></a>
-      </div>
-      <div class="solution-card">
-        <img src="images/projectors.jpg" alt="Projectors">
-        <h3>Projectors</h3>
-        <p>Our DLP and android powered projectors are designed  for dynamic, large-scale classroom presentations, ensuring every student can clearly see and engage with the lesson content.</p>
-        <a href="projectors.html"><button>Learn More</button></a>
-      </div>
-      <div class="solution-card">
-        <img src="images/laptops.jpg" alt="Laptops and Desktops">
-        <h3>Laptops, Desktops & Chromebooks</h3>
-        <p>A range of student-focused computing devices, including powerful laptops for digital learning, high-performance desktops for labs and STEM classes, and lightweight Chromebooks for affordable, collaborative 1-to-1 programs.</p>
-        <a href="contact.html"><button>Shop Now</button></a>
-      </div>
-      <div class="solution-card">
-        <img src="images/training.jpg" alt="Teacher ICT Training">
-        <h3>Teacher Capacity Building</h3>
-        <p>We offer comprehensive ICT training and professional development to empower teachers with the skills to effectively integrate technology into their lessons. Our dedicated support team provides ongoing guidance to ensure educators stay current with the latest trends and make the most of our solutions in the classroom.</p>
-        <a href="contact.html"><button>Enroll Now</button></a>
-      </div>
-      <div class="solution-card">
-        <img src="images/coding-robotics.jpg" alt="Coding and Robotics">
-        <h3>Coding & Robotics</h3>
-        <p>Our coding and robotics programs introduce students to the fundamentals of programming and engineering through hands-on projects. We provide the tools, resources, and training to help schools implement engaging STEM curricula that prepare students for the future.</p>
-        <a href="contact.html"><button>Learn More</button></a>
+    <div class="container">
+      <h2>Our Solutions</h2>
+      <div class="solutions-grid">
+        <!-- Each solution card -->
+        <div class="solution-card">
+          <img src="images/smartboards.jpg" alt="Smartboards">
+          <h3>Smartboards & Interactive Kits</h3>
+          <p>Turn any projected surface into a dynamic interactive touch screen with our innovative Smarttouch kits designed to spark collaboration, boost engagement and transform every classroom into an immersive learning experience.</p>
+          <a href="smart-solutions.html"><button>Learn More</button></a>
+        </div>
+
+        <div class="solution-card">
+          <img src="images/projectors.jpg" alt="Projectors">
+          <h3>Projectors</h3>
+          <p>Our DLP and android powered projectors are designed for dynamic, large-scale classroom presentations, ensuring every student can clearly see and engage with the lesson content.</p>
+          <a href="projectors.html"><button>Learn More</button></a>
+        </div>
+
+        <div class="solution-card">
+          <img src="images/laptops.jpg" alt="Laptops and Desktops">
+          <h3>Laptops, Desktops & Chromebooks</h3>
+          <p>A range of student-focused computing devices, including powerful laptops for digital learning, high-performance desktops for labs and STEM classes, and lightweight Chromebooks for affordable, collaborative 1-to-1 programs.</p>
+          <a href="contact.html"><button>Shop Now</button></a>
+        </div>
+
+        <div class="solution-card">
+          <img src="images/training.jpg" alt="Teacher ICT Training">
+          <h3>Teacher Capacity Building</h3>
+          <p>We offer comprehensive ICT training and professional development to empower teachers with the skills to effectively integrate technology into their lessons. Our dedicated support team provides ongoing guidance to ensure educators stay current with the latest trends and make the most of our solutions in the classroom.</p>
+          <a href="contact.html"><button>Enroll Now</button></a>
+        </div>
+
+        <div class="solution-card">
+          <img src="images/coding-robotics.jpg" alt="Coding and Robotics">
+          <h3>Coding & Robotics</h3>
+          <p>Our coding and robotics programs introduce students to the fundamentals of programming and engineering through hands-on projects. We provide the tools, resources, and training to help schools implement engaging STEM curricula that prepare students for the future.</p>
+          <a href="contact.html"><button>Learn More</button></a>
+        </div>
       </div>
     </div>
-  </div>
-</main>
+  </main>
+
+  <!-- Footer -->
   <footer class="site-footer">
     <div class="footer-slogan">
-  <p>Bridging classrooms with the future of education.</p>
-</div>
+      <p>Bridging classrooms with the future of education.</p>
+    </div>
     <div class="footer-container">
       <div class="footer-column">
         <h4>Solventa Enterprises</h4>
@@ -88,46 +99,49 @@
           <li><a href="resources.html">Resources</a></li>
         </ul>
       </div>
-      <!-- Watermark Logo (bottom left, fixed, subtle opacity) -->
-      <div class="watermark-logo" style="position: fixed; bottom: 24px; left: 24px; z-index: 500; opacity: 0.39; pointer-events: none;">
-        <img src="images/new-logo.PNG" alt="Solventa Enterprises watermark logo" style="height:120px; user-select: none;">
-      </div>
       <div class="footer-column">
         <h4>Contact Us</h4>
         <ul class="footer-contact-list">
           <li>
-        <img src="images/location-icon.png" alt="Location" style="vertical-align:middle;width:18px;height:18px;margin-right:6px;">
-        Cedar Court, Garden Estate Off Thika road, Block C, Office C1
+            <img src="images/location-icon.png" alt="Location" style="width:18px;height:18px;margin-right:6px;">
+            Cedar Court, Garden Estate Off Thika road, Block C, Office C1
           </li>
           <li>
-        <a href="tel:+254729711200" class="footer-phone">
-          <img src="images/phone-icon.png" alt="Phone" style="vertical-align:middle;width:18px;height:18px;margin-right:6px;">
-          +254 729 711 200
-        </a>
+            <a href="tel:+254729711200">
+              <img src="images/phone-icon.png" alt="Phone" style="width:18px;height:18px;margin-right:6px;">
+              +254 729 711 200
+            </a>
           </li>
           <li>
-        <a href="mailto:info@solventa.co.ke" class="footer-email">
-          <img src="images/email-icon.png" alt="Email" style="vertical-align:middle;width:18px;height:18px;margin-right:6px;">
-          info@solventa.co.ke
-        </a>
+            <a href="mailto:info@solventa.co.ke">
+              <img src="images/email-icon.png" alt="Email" style="width:18px;height:18px;margin-right:6px;">
+              info@solventa.co.ke
+            </a>
           </li>
         </ul>
         <div class="social-icons">
-          <a href="https://m.facebook.com/solventa.enterprises/" target="_blank" rel="noopener">
-            <img src="images/facebook-icon.png" alt="Facebook page for Solventa Enterprises">
+          <a href="https://m.facebook.com/solventa.enterprises/" target="_blank">
+            <img src="images/facebook-icon.png" alt="Facebook">
           </a>
           <a href="#"><img src="images/twitter-icon.png" alt="Twitter"></a>
-          <a href="https://www.linkedin.com/company/solventa-enterprises/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/company/solventa-enterprises/" target="_blank">
             <img src="images/linkedin-icon.png" alt="LinkedIn">
+          </a>
         </div>
       </div>
-        </div>
-        <div class="footer-bottom">
+    </div>
+    <div class="footer-bottom">
       <p>&copy; 2025 Solventa Enterprises Ltd. All rights reserved.</p>
-        </div>
-      </footer>
+    </div>
+  </footer>
 
-  <!-- JS -->
-  <script src="script.js"></script>
+  <!-- Watermark Logo -->
+  <div class="watermark-logo" style="position: fixed; bottom: 24px; left: 24px; z-index: 500; opacity: 0.39; pointer-events: none;">
+    <img src="images/new-logo.PNG" alt="Solventa Enterprises watermark logo" style="height:120px; user-select: none;">
+  </div>
+
+  <!-- JS (deferred load) -->
+  <script src="script.js" defer></script>
+
 </body>
 </html>
