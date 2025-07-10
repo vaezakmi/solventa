@@ -40,6 +40,12 @@ body {
   max-width: 180px;
   height: auto;
   display: block;
+  transition: max-width 0.3s ease;
+  @media (max-width: 600px) {
+  .site-logo {
+    max-width: 140px;
+  }
+}
 }
 .logo img {
   height: 50px;
