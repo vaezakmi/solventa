@@ -966,23 +966,24 @@ h2 {
   color: #7BC043;
 }
 
-/* Partners */
-.partners-heading {
+/* Valued Clients */
+.clients-heading {
   margin-top: 3em;
+  text-align: center;
   color:#008CDB;
   font-size: 1.5em;
 }
 
-.partners-grid {
+.clients-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(91.5px, 1fr));
   gap: 1.5em;
   margin-top: 1em;
   align-items: center;
   text-align: center;
 }
 
-.partner-logo {
+.clients-logo {
   background-color: #f0f0f0;
   padding: 2em;
   border-radius: 6px;
